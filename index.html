@@ -18,7 +18,7 @@
     <!-- link fontawesome -->
     <script src="https://kit.fontawesome.com/dd367eda64.js" crossorigin="anonymous"></script>
     <!-- Link animaciones -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--Open Graph-->
     <meta property='og:type' content="Web">
     <meta property='og:title' content="Chatmami - Ropa de egresados con onda">
@@ -32,7 +32,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light nav-home">
+        <nav class="navbar navbar-expand-lg  nav-home fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Chatmami</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -40,7 +40,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav menu-lista">
                         <li class="nav-item">
                             <a class="nav-link" href="#productos">Productos</a>
                         </li>
@@ -55,82 +55,94 @@
             </div>
         </nav>
     </header>
+    <main>
+        <section class="hero">
+            <div class="hero-div animate__animated animate__slideInUp">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+                <p class="p-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consequatur
+                    veritatis
+                    eius iste. Eius illum commodi accusantium cum delectus, magnam velit sunt iure quos exercitationem,
+                    officia, asperiores quibusdam nemo ab.</p>
+                <a href="#productos" class="button-85">Ver productos</a>
+            </div>
+            <div>
+                <img src="src/media/nino-chatmami.png" alt="niño-campera-egresados"
+                    class="animate__animated animate__slideInUp img-hero">
+            </div>
 
-    <section class="hero">
-        <div>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
-            <p class="p-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consequatur veritatis
-                eius iste. Eius illum commodi accusantium cum delectus, magnam velit sunt iure quos exercitationem,
-                officia, asperiores quibusdam nemo ab.</p>
-            <a href="" class="button">Ver productos</a>
-        </div>
-        <div>
-            <img src="" alt="niño-campera-egresados" class="wow animate__slideInUp img-hero">
-        </div>
+        </section>
+        <section class="productos" id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="container-prod">
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                        alt="campera-egresados-jardin" class="img-producto">
+                    <div class="prod-data">
+                        <h3>Camperas Niños</h3>
+                        <p class="precio">Desde <span>$5000</span></p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                        alt="campera-egresados-jardin" class="img-producto">
+                    <h3>Camperas Niños</h3>
+                    <p class="precio">Desde <span>$5000</span></p>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                        alt="campera-egresados-jardin" class="img-producto">
+                    <h3>Camperas Niños</h3>
+                    <p class="precio">Desde <span>$5000</span></p>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                        alt="campera-egresados-jardin" class="img-producto">
+                    <h3>Camperas Niños</h3>
+                    <p class="precio">Desde <span>$5000</span></p>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                        alt="campera-egresados-jardin" class="img-producto">
+                    <h3>Camperas Niños</h3>
+                    <p class="precio">Desde <span>$5000</span></p>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                        alt="campera-egresados-jardin" class="img-producto">
+                    <h3>Camperas Niños</h3>
+                    <p class="precio">Desde <span>$5000</span></p>
+                </div>
+            </div>
 
-    </section>
-    <section class="productos" id="productos">
-        <h2>Nuestros Productos</h2>
-        <div>
+        </section>
+        <section class="nosotros" id="nosotros">
+            <h2>Quienes somos</h2>
             <div>
-                <img src="" alt="campera-egresados-jardin" class="img-producto">
-                <h3>Camperas Niños</h3>
-                <p class="precio">Desde <span>$5000</span></p>
+                <p class="p-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex numquam inventore ipsum
+                    facilis? Beatae dolorum obcaecati accusantium autem corrupti accusamus reprehenderit, iste nihil
+                    eligendi, commodi, earum consectetur impedit fugit voluptate?</p>
+                <img src="" alt="Equipo Chatmami">
             </div>
-            <div>
-                <img src="" alt="campera-egresados-jardin" class="img-producto">
-                <h3>Camperas Niños</h3>
-                <p class="precio">Desde <span>$5000</span></p>
-            </div>
-            <div>
-                <img src="" alt="campera-egresados-jardin" class="img-producto">
-                <h3>Camperas Niños</h3>
-                <p class="precio">Desde <span>$5000</span></p>
-            </div>
-            <div>
-                <img src="" alt="campera-egresados-jardin" class="img-producto">
-                <h3>Camperas Niños</h3>
-                <p class="precio">Desde <span>$5000</span></p>
-            </div>
-            <div>
-                <img src="" alt="campera-egresados-jardin" class="img-producto">
-                <h3>Camperas Niños</h3>
-                <p class="precio">Desde <span>$5000</span></p>
-            </div>
-            <div>
-                <img src="" alt="campera-egresados-jardin" class="img-producto">
-                <h3>Camperas Niños</h3>
-                <p class="precio">Desde <span>$5000</span></p>
-            </div>
-        </div>
-
-    </section>
-    <section class="nosotros" id="nosotros">
-        <h2>Quienes somos</h2>
-        <div>
-            <p class="p-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex numquam inventore ipsum
-                facilis? Beatae dolorum obcaecati accusantium autem corrupti accusamus reprehenderit, iste nihil
-                eligendi, commodi, earum consectetur impedit fugit voluptate?</p>
-            <img src="" alt="Equipo Chatmami">
-        </div>
-    </section>
-    <section class="contacto" id="contacto">
-        <h2>Contacto</h2>
-        <p class="p-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusamus officia laboriosam
-            quasi temporibus adipisci! Quod provident aspernatur quam voluptate expedita distinctio inventore optio
-            officia numquam, eaque, in, unde accusantium!</p>
-        <form action="">
-            <label for=""></label>
-            <input type="text" name="" id="">
-            <label for=""></label>
-            <input type="text" name="" id="">
-            <label for=""></label>
-            <input type="text" name="" id="">
-            <label for=""></label>
-            <input type="email" name="" id="">
-            <a href="">Enviar</a>
-        </form>
-    </section>
+        </section>
+        <section class="contacto" id="contacto">
+            <h2>Contacto</h2>
+            <p class="p-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusamus officia
+                laboriosam
+                quasi temporibus adipisci! Quod provident aspernatur quam voluptate expedita distinctio inventore optio
+                officia numquam, eaque, in, unde accusantium!</p>
+            <form action="">
+                <label for=""></label>
+                <input type="text" name="" id="">
+                <label for=""></label>
+                <input type="text" name="" id="">
+                <label for=""></label>
+                <input type="text" name="" id="">
+                <label for=""></label>
+                <input type="email" name="" id="">
+                <a href="" class="button">Enviar</a>
+            </form>
+        </section>
+    </main>
     <footer>
         <div class="logo-footer">
             <img src="" alt="Logo Chatmami">
@@ -144,20 +156,19 @@
         </div>
         <div class="redes-sociales">
             <h4>Seguinos</h4>
+            <div>
             <a href="" target="__blank" class="link-social"><i class="fab fa-brands fa-instagram"></i></a>
             <a href="" target="__blank" class="link-social"><i class="fab fa-brands fa-facebook-f"></i></a>
             <a href="" target="__blank" class="link-social"><i class="fab fa-brands fa-whatsapp"></i></i></a>
         </div>
+        </div>
+
     </footer>
+    <script src="index.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <!-- JS wow animations -->
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
 </body>
 
 </html>
